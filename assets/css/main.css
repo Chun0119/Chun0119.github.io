@@ -3745,7 +3745,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/drift_bottle_banner.jpg");
+		background-image: url("/projects/drift_bottle/images/drift_bottle_banner.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
