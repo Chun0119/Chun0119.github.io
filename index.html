@@ -28,24 +28,7 @@
 			<header id="header" class="alt" data-include="header"></header>
 
 			<!-- Menu -->
-			<nav id="menu">
-				<ul class="links">
-					<li>
-						<a href="#banner" class="scrolly">Home</a>
-					</li>
-					<li>
-						<a href="#resume" class="scrolly">Resume</a>
-					</li>
-					<li>
-						<a href="#project" class="scrolly">Personal Projects</a>
-					</li>
-				</ul>
-				<ul class="actions stacked">
-					<li>
-						<a href="#contact" class="button fit scrolly">Contact Me</a>
-					</li>
-				</ul>
-			</nav>
+			<nav id="menu" class="alt" data-include="scrolly_menu"></nav>
 
 			<!-- Banner -->
 			<section id="banner" class="major">
@@ -54,12 +37,27 @@
 						<h1>Chun Sin Ying, Sarah</h1>
 					</header>
 					<div class="content">
-						<p>A passionated game developer</p>
-						<ul class="actions">
-							<li>
-								<a href="#project" class="button next scrolly">View Personal Projects</a>
-							</li>
-						</ul>
+						<div class="inner">
+							<div class="content">
+								<p>A passionated game developer</p>
+								<ul class="actions">
+									<li>
+										<a href="documents/resume.pdf" target="_blank" class="button icon solid fa-download">Resume</a>
+									</li>
+								</ul>
+							</div>
+							<div class="flexbox">
+								<div class="flexitem">
+									<a href="#past-working-experience" class="button scrolly">Past Working Experience</a>
+								</div>
+								<div class="flexitem">
+									<a href="#invited-presentations" class="button scrolly">Invited Presentations</a>
+								</div>
+								<div class="flexitem">
+									<a href="#project" class="button scrolly">Personal Projects</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -67,20 +65,12 @@
 			<!-- Main -->
 			<div id="main">
 
-				<!-- Resume -->
-				<section id="resume">
+				<!-- Past Working Experience -->
+				<section id="past-working-experience">
 					<div class="inner">
 						<header class="major">
-							<div class="row" style="width: calc(100% + 2.5em);">
-								<div class="col-4">
-									<h2>Resume</h2>
-								</div>
-								<div class="col-8">
-									<a href="documents/resume.pdf" target="_blank" class="button icon solid fa-download">Detailed Resume</a>
-								</div>
-							</div>
+							<h2>Past Working Experience</h2>
 						</header>
-						<h3>Past working experience</h3>
 						<div class="row">
 							<div class="col-md-12">
 								<section id="cd-timeline" class="cd-container">
@@ -249,78 +239,113 @@
 					</div>
 				</section>
 
+				<!-- Invited Presentations -->
+				<section id="invited-presentations">
+					<div class="inner">
+						<header class="major">
+							<h2>Invited Presentations</h2>
+						</header>
+						<div class="row">
+							<div class="col-6 col-12-small">
+								<div class="container">
+									<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6973466380956315648" class="video" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<br>
+							</div>
+							<div class="col-6 col-12-small">
+								<p>
+									<strong>Career in STEM: Programming Games, Programming a Future Career</strong>
+									is a webminar held by <a href="https://www.ggthk.org/stem_hub/" target="_blank">Girls Go Tech</a> organized by The Women's Foundation. It aims to encourage underprivileged girls to pursue STEM education or even career, specified in game development.
+								</p>
+							</div>
+							<div class="col-12 col-12-small">
+								<div class="container image-container" style="overflow: hidden">
+									<img style="width: 100%; padding-left:-10%" src="./images/ggt.png" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
 				<!-- Project -->
-				<section id="project" class="tiles">
-					<article>
-						<span class="image">
-							<img src="/projects/hexplore_fort/images/hexplore_fort_icon.jpg" alt="" />
-						</span>
+				<section id="project">
+					<div class="inner">
 						<header class="major">
-							<h3>
-								<a href="/projects/hexplore_fort/hexplore_fort.html" class="link">Hexplore Fort</a>
-							</h3>
-							<p>> Unity Android AR Game with Hexapod</p>
-							<p>> Individual Project (Final Year Project)</p>
+							<h2>Personal Projects</h2>
 						</header>
-					</article>
-					<article>
-						<span class="image">
-							<img src="/projects/the_earth/images/the_earth_icon.png" alt="" />
-						</span>
-						<header class="major">
-							<h3>
-								<a href="/projects/the_earth/the_earth.html" class="link">The Earth</a>
-							</h3>
-							<p>> Native Android 2D Game</p>
-							<p>> Individual Project</p>
-						</header>
-					</article>
-					<article>
-						<span class="image">
-							<img src="/projects/drift_bottle/images/drift_bottle_icon.jpg" alt="" />
-						</span>
-						<header class="major">
-							<h3>
-								<a href="/projects/drift_bottle/drift_bottle.html" class="link">Drift Bottle</a>
-							</h3>
-							<p>> Native Android Application</p>
-							<p>> Group Project</p>
-						</header>
-					</article>
-					<article>
-						<span class="image">
-							<img src="/projects/road_to_graduation/images/road_to_graduation_icon.png" alt="" />
-						</span>
-						<header class="major">
-							<h3>
-								<a href="/projects/road_to_graduation/road_to_graduation.html" class="link">Road to Graduation</a>
-							</h3>
-							<p>> Unity PC 2D Game</p>
-							<p>> Group Project</p>
-						</header>
-					</article>
-					<article>
-						<span class="image">
-							<img src="/projects/undead_pursuit/images/undead_pursuit_icon.png" alt="" />
-						</span>
-						<header class="major">
-							<h3>
-								<a href="/projects/undead_pursuit/undead_pursuit.html" class="link">Undead Pursuit</a>
-							</h3>
-							<p>> Unity PC 2D Game</p>
-							<p>> Group Project</p>
-						</header>
-					</article>
-					<article>
-						<span class="image">
-							<img src="/projects/mini_projects/images/my_day_in_hku_icon.jpg" alt="" />
-						</span>
-						<header class="major">
-							<h3>
-								<a href="/projects/mini_projects/mini_projects.html" class="link">Others Mini Project(s)</a>
-							</h3>
-						</header>
-					</article>
+					</div>
+					<section class="tiles">
+						<article>
+							<span class="image">
+								<img src="/projects/hexplore_fort/images/hexplore_fort_icon.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h3>
+									<a href="/projects/hexplore_fort/hexplore_fort.html" class="link">Hexplore Fort</a>
+								</h3>
+								<p>> Unity Android AR Game with Hexapod</p>
+								<p>> Individual Project (Final Year Project)</p>
+							</header>
+						</article>
+						<article>
+							<span class="image">
+								<img src="/projects/the_earth/images/the_earth_icon.png" alt="" />
+							</span>
+							<header class="major">
+								<h3>
+									<a href="/projects/the_earth/the_earth.html" class="link">The Earth</a>
+								</h3>
+								<p>> Native Android 2D Game</p>
+								<p>> Individual Project</p>
+							</header>
+						</article>
+						<article>
+							<span class="image">
+								<img src="/projects/drift_bottle/images/drift_bottle_icon.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h3>
+									<a href="/projects/drift_bottle/drift_bottle.html" class="link">Drift Bottle</a>
+								</h3>
+								<p>> Native Android Application</p>
+								<p>> Group Project</p>
+							</header>
+						</article>
+						<article>
+							<span class="image">
+								<img src="/projects/road_to_graduation/images/road_to_graduation_icon.png" alt="" />
+							</span>
+							<header class="major">
+								<h3>
+									<a href="/projects/road_to_graduation/road_to_graduation.html" class="link">Road to Graduation</a>
+								</h3>
+								<p>> Unity PC 2D Game</p>
+								<p>> Group Project</p>
+							</header>
+						</article>
+						<article>
+							<span class="image">
+								<img src="/projects/undead_pursuit/images/undead_pursuit_icon.png" alt="" />
+							</span>
+							<header class="major">
+								<h3>
+									<a href="/projects/undead_pursuit/undead_pursuit.html" class="link">Undead Pursuit</a>
+								</h3>
+								<p>> Unity PC 2D Game</p>
+								<p>> Group Project</p>
+							</header>
+						</article>
+						<article>
+							<span class="image">
+								<img src="/projects/mini_projects/images/my_day_in_hku_icon.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h3>
+									<a href="/projects/mini_projects/mini_projects.html" class="link">Others Mini Project(s)</a>
+								</h3>
+							</header>
+						</article>
+					</section>
 				</section>
 
 				<!-- Contact -->
@@ -358,18 +383,18 @@
 		</div>
 
 		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
+		<script src="/assets/js/jquery.min.js"></script>
+		<script src="/assets/js/jquery.scrolly.min.js"></script>
+		<script src="/assets/js/jquery.scrollex.min.js"></script>
+		<script src="/assets/js/browser.min.js"></script>
+		<script src="/assets/js/breakpoints.min.js"></script>
+		<script src="/assets/js/util.js"></script>
+		<script src="/assets/js/main.js"></script>
 
-		<script src="assets/js/timeline.js"></script>
-		<script src="assets/js/modernizr.min.js"></script>
+		<script src="/assets/js/timeline.js"></script>
+		<script src="/assets/js/modernizr.min.js"></script>
 
-		<script src="components/include.js"></script>
+		<script src="/assets/js/include.js"></script>
 	</body>
 
 </html>

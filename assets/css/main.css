@@ -3202,9 +3202,6 @@ input, select, textarea {
 		flex-wrap: wrap;
 		width:100%
 	}
-	.flexbox a {
-		border-bottom: none;
-	}
 	.flexitem {
 		justify-content: flex-start;
 		margin: 1em 0 0 1em;
@@ -3532,7 +3529,6 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
